@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Black&family=Outfit:wght@100..900&display=swap");
 
 :root {
-  font-size: 16px;
-
   /* Colors */
   --primary: hsl(218, 44%, 22%);
   --secondary: hsl(216, 15%, 48%);
@@ -28,18 +26,25 @@
 }
 
 html {
+  font-size: 16px;
   font-family: var(--font), sans-serif;
+}
+
+body {
+  background-color: var(--subtle);
 }
 
 .text-primary {
   color: var(--primary);
+  font-size: var(--text-size-primary);
   font-weight: bold;
   line-height: var(--lh-primary);
   letter-spacing: var(--ls-primary);
 }
 
-.text-primary {
+.text-secondary {
   color: var(--secondary);
+  font-size: var(--text-size-secondary);
   font-weight: normal;
   line-height: var(--lh-secondary);
   letter-spacing: var(--ls-secondary);
