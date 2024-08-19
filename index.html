@@ -16,23 +16,28 @@
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <div>
-      <span class="text-primary"
-        >Improve your front-end skills by building projects</span
-      >
-    </div>
-    <div>
-      <span class="text-secondary"
-        >Scan the QR code to visit Frontend Mentor and take your coding skills
-        to the next level</span
-      >
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+    <div class="flex flex-column flex-center main-wrapper">
+      <main class="flex flex-column flex-center qr-container">
+        <figure class="qr-code">
+          <img
+            src="./images/image-qr-code.png"
+            alt="Scannable QR code with blue background."
+          />
+        </figure>
+        <article class="flex flex-column flex-center text-center qr-message">
+          <div>
+            <span class="text-primary"
+              >Improve your front-end skills by building projects</span
+            >
+          </div>
+          <div>
+            <span class="text-secondary"
+              >Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level</span
+            >
+          </div>
+        </article>
+      </main>
     </div>
   </body>
 </html>
